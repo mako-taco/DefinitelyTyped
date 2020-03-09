@@ -219,8 +219,8 @@ export class DateTime {
     weekNumber: number;
     weekYear: number;
     weekday: number;
-    weekdayLong: string;
-    weekdayShort: string;
+    weekdayLong: 'Sunday' | 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday';
+    weekdayShort: 'Sun' | 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri' | 'Sat';
     weeksInWeekYear: number;
     year: number;
     zoneName: string;
